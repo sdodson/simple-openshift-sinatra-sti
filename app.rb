@@ -5,6 +5,9 @@ set :port, 8080
 
 SCALE = 10000  
 ARRINIT = 2000  
+
+# from http://www.codecodex.com/wiki/Calculate_digits_of_pi#Ruby 
+# no idea if it really generates valid results but it definitely chews up cpu time
 def pi_digits(digits)  
   pi = ""  
   carry = 0  
